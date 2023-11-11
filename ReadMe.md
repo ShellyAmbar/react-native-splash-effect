@@ -17,7 +17,7 @@
 </>
 ```
 
-## ActionButton props
+## props
 
 | Name   | Type   | Default |
 | ------ | ------ | ------- |
