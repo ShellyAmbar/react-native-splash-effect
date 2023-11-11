@@ -1,0 +1,32 @@
+{
+  "name": "rn-splash-effect",
+  "version": "1.0.0",
+  "description": "Splash effect view to put above buttons or other views.",
+  "main": "./splash/splash.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShellyAmbar/react-native-splash-effect.git"
+  },
+  "keywords": [
+    "splash",
+    "effect",
+    "splasheffect",
+    "ripple",
+    "rippleeffect"
+  ],
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-native": "0.72.3",
+    "expo-linear-gradient": "~12.3.0",
+    "react-native-reanimated": "~3.3.0"
+  },
+  "author": "Shelly Ambar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShellyAmbar/react-native-splash-effect/issues"
+  },
+  "homepage": "https://github.com/ShellyAmbar/react-native-splash-effect#readme"
+}
