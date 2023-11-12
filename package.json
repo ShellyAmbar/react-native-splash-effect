@@ -1,6 +1,6 @@
 {
   "name": "rn-splash-effect",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Splash effect view to put above buttons or other views.",
   "main": "./splash/splash.tsx",
   "scripts": {

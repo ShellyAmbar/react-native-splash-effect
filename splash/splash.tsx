@@ -9,7 +9,7 @@ import Animated, {
   withTiming,
 } from "react-native-reanimated";
 import SplashProps from "./interfaces";
-const Splash = ({height, width}: SplashProps) => {
+const Splash = ({height, width, duration}: SplashProps) => {
   const styles = createStyles({BUTTON_HEIGHT: height});
   const AnimatedLinearGradient =
     Animated.createAnimatedComponent(LinearGradient);
@@ -22,7 +22,7 @@ const Splash = ({height, width}: SplashProps) => {
       withTiming(
         -XLight.value,
         {
-          duration: 1000,
+          duration: duration ? duration : 1000,
           easing: Easing.linear,
         },
         () => {}

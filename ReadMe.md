@@ -19,7 +19,8 @@
 
 ## props
 
-| Name   | Type   | Default |
-| ------ | ------ | ------- |
-| height | number |
-| width  | number |
+| Name     | Type   | Default |
+| -------- | ------ | ------- |
+| height   | number |
+| width    | number |
+| duration | number |
